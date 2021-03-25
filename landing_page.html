@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed's Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="landing.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+
+        <div class="content">
+            <h2>Hello World,</br>I'm <span>Mohammed Salah</span></h2>
+            <p>
+               I am a self taught developer and my current stack is front-end.
+               I am comfortable with HTML, CSS and have recently started to learn JavaScript . My next aim
+               is to hopefully get accepted onto a bootcamp to not only improve my skills further but to be able to get a job with what I have learned also. This is 
+               just the beginning of my landing page and as time goes on, hopefully I will be able to add to it futher with all the projects I have done.
+            
+            </p>
+               <a href="#" >Know More</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> About </a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="#"> Portfolio</a></li>
+            <li><a href="#"> Contact</a></li>
+        </ul>
+    </div>
+
+
+
+    <script type="text/javascript">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+    
+    
+    
+    </script>
+    
+</body>
+</html>
